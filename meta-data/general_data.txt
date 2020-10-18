@@ -1,0 +1,6 @@
+Id population	Permanence	Predator	Salinity (g/L)	Groups	Genome size
+El Carmen	Ephemeral	No	1.6 - 45	1	400.98
+Atexcac	Perennial	No	7.6	2	361.86
+Preciosa	Perennial	Yes	1.4	3	244.5
+Quechulac	Perennial	Yes	0.5	4	322.74
+Alchichica	Perennial	Yes	6.4	outgroup 	391.2
