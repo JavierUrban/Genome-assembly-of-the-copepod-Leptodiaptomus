@@ -56,7 +56,7 @@ According to this workflow, it was decided to divide the process into the follow
 
 Let's start by reviewing the quality status of the illumina sequences usando el siguiente script [fastQC.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/fastQC.sh)
 
-Minion sequences for review the quality of the sequence with software FASTP [(script fastp.sh)](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/fastp.sh)
+Minion sequences for review the quality of the sequence with software [fastp.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/fastp.sh). And to trim the adapters it was done with [porechop.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/porechop.sh)
 
 
 + **Assembly testing**
@@ -67,9 +67,21 @@ Minion sequences for review the quality of the sequence with software FASTP [(sc
 
 
 ### Software versions used 
+[**Fastqc:v0.11.8**](https://hub.docker.com/layers/biocontainers/fastqc/v0.11.8dfsg-2-deb_cv1/images/sha256-9d41ec0bc4f413abe9e5290c91e3edfaa215fc47e8e11df18691cfa870df6d91?context=explore)
+
+[**Fastp:v0.19.5**](https://github.com/OpenGene/fastp)
+
+[**Porechop:v0.2.4**](https://github.com/rrwick/Porechop)
+
+[**Canu:v1.8**](https://hub.docker.com/r/biocontainers/canu/tags)
+
+[**Trimmomatic:v0.38**](https://hub.docker.com/r/davelabhub/trimmomatic/tags)
 
 ### References 
 
 + [Barrera-Moreno, O. A., Ciros-Pérez, J., Ortega-Mayagoitia, E., Alcántara-Rodríguez, J. A., & Piedra-Ibarra, E. (2015). From local adaptation to ecological speciation in copepod populations from neighboring lakes. PloS one, 10(4), e0125524.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125524)
 
 * [Shin, S. C., Kim, H., Lee, J. H., Kim, H. W., Park, J., Choi, B. S., & Kim, S. (2019). Nanopore sequencing reads improve assembly and gene annotation of the Parochlus steinenii genome. Scientific Reports, 9(1), 1-10.](https://www.nature.com/articles/s41598-019-41549-8)
+
++ Ortega-Mayagoitia, E., Alcántara-Rodriguez, J. A., Urbán-Olivares, J., Campos-Contreras, J. E., & Ciros-Pérez, J. (2020). Genomic evidence of adaptive evolution patterns in lacustrine calanoid copepods. Molecular Ecology (in review).
+
