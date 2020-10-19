@@ -37,8 +37,8 @@ The results are shown in the table.
 
 Copepods are a little-studied model, but in recent years they are becoming relevant as a genomic model (due to the wide adaptive evolution and the great difference in the size of their genomes) and ecological in aquatic environments. Our model is in a process of ecological speciation ([1](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125524) and 2) however, the genomic bases of adaptive evolution are unknown in models like this, in order to have a better understanding of it we have the following objectives
 
-   + 1.- Assemble and annotate a Novo genome
-   + 2.- Assemble genomes and compare with the reference.
+   + 1.- Assembly and annotation of genome de *Novo*
+   + 2.- Assembly genomes and compare with the reference.
    + 3.- Characterize divergent genomic regions subject to selection and adaptive evolution.
 
 
