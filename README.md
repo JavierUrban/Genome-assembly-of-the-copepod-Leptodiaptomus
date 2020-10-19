@@ -42,7 +42,7 @@ Copepods are a little-studied model, but in recent years they are becoming relev
    + 3.- Characterize divergent genomic regions subject to selection and adaptive evolution.
 
 
-### Wordflow
+### Workflow
 
 To meet the first objective, we decided to follow the workflow proposed by [Shin *et al.,* (2019)](https://www.nature.com/articles/s41598-019-41549-8) for assemblies hybrids using long sequences (MinION) and short sequences (illumina). This workflow is used for the Novo assembly using data from the "El Carmen" population.
 
