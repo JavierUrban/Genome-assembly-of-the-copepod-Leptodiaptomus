@@ -48,7 +48,7 @@ To meet the first objective, we decided to follow the workflow proposed by [Shin
 
 Raw sequencing data and heavy results are not here, if you want to know more, you can write to the following email [javierurban07@gmail.com](javierurban07@gmail.com)
 
-![Wordflow](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/wordflow.png)
+![Workflow](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/workflow.png)
 
 According to this workflow, it was decided to divide the process into the following steps:
 
