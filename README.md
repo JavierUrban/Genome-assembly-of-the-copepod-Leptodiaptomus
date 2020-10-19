@@ -3,7 +3,7 @@ This repository contains a short description of the workflow for the assembly an
 
 It´s organized in three folders
 
-+ [`bin`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/bin) In this folder are the scripts that will help us obtain the results, each script assumes that the working dicercty is this folder, that the input files are in meta-data and that the outputs will go to results.
++ [`bin`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/bin) In this folder are the scripts that will help us obtain the results, each script assumes that the working directory is this folder, that the input files are in meta-data and that the outputs will go to results.
 
 + [`results`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/results) In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
 
