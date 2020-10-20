@@ -63,7 +63,7 @@ To check the quality of the MinION sequences we used the *software* [fastp.sh](h
 
 + **Hybrid assembly**
 
-+ **Genome polishing**
++ **Assembly polishing**
 
 
 ### *Software* versions used 
