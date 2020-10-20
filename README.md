@@ -5,9 +5,9 @@ It´s organized in three folders
 
 + [`bin`](/bin) In this folder are the scripts that will help us obtain the results, each script assumes that the working directory is this folder, that the input files are in meta-data and that the outputs will go to results.
 
-+ [`results`](/results) In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
++ [`results`](/results/) In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
 
-+ [`meta-data`](/meta-data) Here are some tables or data of general information of the five study populations and that can be used for future analysis. 
++ [`meta-data`](/meta-data/) Here are some tables or data of general information of the five study populations and that can be used for future analysis. 
 
 
 ## Generalities
