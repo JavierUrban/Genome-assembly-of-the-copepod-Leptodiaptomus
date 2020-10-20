@@ -1,18 +1,18 @@
-# Genome-assembly-of-the-copepod-Leptodiaptomus
-This repository contains a short description of the workflow for the assembly and comparison of genomes of the copepod Leptodiaptomus group sicilis that is under a process of ecological speciation.
+# Genome-assembly-of-the-copepod-*Leptodiaptomus*
+This repository contains a short description of the workflow for the assembly and comparison of genomes of the copepod *Leptodiaptomus* *sicilis* group that is under a process of ecological speciation.
 
 It´s organized in three folders
 
-+ [`bin`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/bin) In this folder are the scripts that will help us obtain the results, each script assumes that the working directory is this folder, that the input files are in meta-data and that the outputs will go to results.
++ [`bin`](/bin) In this folder are the scripts that will help us obtain the results, each script assumes that the working directory is this folder, that the input files are in meta-data and that the outputs will go to results.
 
-+ [`results`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/results) In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
++ [`results`](/results) In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
 
-+ [`meta-data`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/tree/main/meta-data) Here are some tables or data of general information of the five study populations and that can be used for future analysis. 
++ [`meta-data`](/meta-data) Here are some tables or data of general information of the five study populations and that can be used for future analysis. 
 
 
 ## Generalities
  
-Phylogenetically close copepod genomes often differ in size and gene content, as is the case with the copepod L. group sicilis. 
+Phylogenetically close copepod genomes often differ in size and gene content, as is the case with the copepod *L. sicilis* group. 
 
 The size of the genome has been estimated by spectrophotometry and the conversion to Mpb was carried out with the following function  ``picograms_to_Mpb(n)`` in R 
 
@@ -48,15 +48,15 @@ To meet the first objective, we decided to follow the workflow proposed by [Shin
 
 Raw sequencing data and heavy results are not here, if you want to know more, you can write to the following email [javierurban07@gmail.com](javierurban07@gmail.com)
 
-![Workflow](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/workflow.png)
+![Workflow](/workflow.png)
 
 According to this workflow, it was decided to divide the process into the following steps:
 
 + **Data cleaning**
 
-Let's start by reviewing the quality status of the illumina sequences using the following script [fastQC.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/fastQC.sh)
+Let's start by reviewing the quality status of the illumina sequences using the following script [fastQC.sh](/bin/fastQC.sh)
 
-To check the quality of the MinION sequences we used the *software* [fastp.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/fastp.sh). And to trim the adapters it was done with [porechop.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/porechop.sh)
+To check the quality of the MinION sequences we used the *software* fastp in the script [fastp.sh](/bin/fastp.sh). And to trim the adapters it was done with [porechop.sh](/bin/porechop.sh)
 
 
 + **Assembly testing**
@@ -81,7 +81,7 @@ To check the quality of the MinION sequences we used the *software* [fastp.sh](h
 
 + [Barrera-Moreno, O. A., Ciros-Pérez, J., Ortega-Mayagoitia, E., Alcántara-Rodríguez, J. A., & Piedra-Ibarra, E. (2015). From local adaptation to ecological speciation in copepod populations from neighboring lakes. PloS one, 10(4), e0125524.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125524)
 
-* [Shin, S. C., Kim, H., Lee, J. H., Kim, H. W., Park, J., Choi, B. S., & Kim, S. (2019). Nanopore sequencing reads improve assembly and gene annotation of the Parochlus steinenii genome. Scientific Reports, 9(1), 1-10.](https://www.nature.com/articles/s41598-019-41549-8)
+* [Shin, S. C., Kim, H., Lee, J. H., Kim, H. W., Park, J., Choi, B. S., & Kim, S. (2019). Nanopore sequencing reads improve assembly and gene annotation of the *Parochlus steinenii* genome. Scientific Reports, 9(1), 1-10.](https://www.nature.com/articles/s41598-019-41549-8)
 
 + Ortega-Mayagoitia, E., Alcántara-Rodriguez, J. A., Urbán-Olivares, J., Campos-Contreras, J. E., & Ciros-Pérez, J. (2020). Genomic evidence of adaptive evolution patterns in lacustrine calanoid copepods. Molecular Ecology (in review).
 
