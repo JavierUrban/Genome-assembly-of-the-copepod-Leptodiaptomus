@@ -14,7 +14,7 @@ It´s organized in three folders
  
 Phylogenetically close copepod genomes often differ in size and gene content, as is the case with the copepod L. group sicilis. 
 
-The size of the genome has been estimated by spectrophotometry and the conversion to Mpb was carried out with the following function  ``picograms_to_Mpb(n)`` in R 
+The size of the genome has been estimated by flow cytometry and the conversion to Mpb was carried out with the following function  ``picograms_to_Mpb(n)`` in R 
 
 ```
 picograms_to_Mpb <- function(picograms) {
