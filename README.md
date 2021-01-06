@@ -44,7 +44,7 @@ Copepods are a little-studied model, but in recent years they are becoming relev
 
 ### Workflow
 
-To comply with point 1 (de novo assembly) I will use the population that has a larger genome size, to be used as a reference and because I already have nanopore sequences and illumina sequences for the entire genome of this population, therefore, we decided to follow the workflow proposed by [Shin *et al.,* (2019)](https://www.nature.com/articles/s41598-019-41549-8) for assemblies hybrids using long sequences (MinION) and short sequences (illumina). This workflow is used for the Novo assembly using data from the "El Carmen" population.
+To comply with point 1 (de novo assembly) I will use the population that has a larger genome size, to be used as a reference and because I already have nanopore sequences and illumina sequences for the entire genome of this population ("El Carmen" ), therefore, we decided to follow the workflow proposed by [Shin *et al.,* (2019)](https://www.nature.com/articles/s41598-019-41549-8) for de novo assemblies using long sequences (MinION) and short sequences (illumina).
 
 Raw sequencing data and heavy results are not here, if you want to know more, you can write to the following email [javierurban07@gmail.com](javierurban07@gmail.com)
 
