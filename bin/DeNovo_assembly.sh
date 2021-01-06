@@ -1,6 +1,6 @@
-###De Novo assembly of Leptodiaptomus###
+###De Novo assembly of the coppepod Leptodiaptomus###
 ###Javier Urbán###
-##It is a hybrid assembly with nanopore and illumina reads##
+##It is a assembly of novo with nanopore and illumina reads##
 
 ###FASTQC###
 ##1 Review the quality of the reads
