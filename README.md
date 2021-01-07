@@ -50,7 +50,7 @@ Raw sequencing data and heavy results are not here, if you want to know more, yo
 
 ![Workflow](/workflow.png)
 
-Here is the general script that was used to make the assembly de novo [DeNovo_assembly.sh](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/assembly_copepodos.sh). And below a small description of each step according to the workflow.
+Here is the general script that was used to make the *De Novo* assembly: [`DeNovo_assembly.sh`](https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/bin/assembly_copepodos.sh). And below a small description of each step according to the workflow.
 
 + **Data cleaning**
 
