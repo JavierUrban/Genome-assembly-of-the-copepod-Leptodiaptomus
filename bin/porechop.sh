@@ -1,12 +1,9 @@
 
 #!/bin/bash
 
-##to download porechop in docker
-docker pull docker pull biocontainers/porechop:v0.2.4dfsg-1-deb_cv1
-porechop="docker run --rm -v /Users/javier/Documents/Docker/genoma_cope:/data biocontainers/porechop:v0.2.4dfsg-1-deb_cv1 porechop"
+###porechop v0.2.4###
+##trimming by quality of nanopore reads##
+## -v 1 shows a summary of the trimming process
+porechop -i ../data/20190402_AAlcantara.fastq -o ../results/trimm_minion.fasta -t 6 -v 1
 
-##recorte y calidad
-## > is the output of the clipped sequences
-## -o trimmed adapters and adapters report
-## adapter identity (default is 90%, can be changed with --adapter_threshold)
-$porechop -i ../meta-data/20190402_AAlcantara.fastq > ../results/QC_minion.fasta -o ../results/ -t 2
+##the adapters were not specified and by default porechop searches for all nenopore adapters, which may vary depending on the version of porechop
