@@ -42,7 +42,7 @@ Copepods are a little-studied model, but in recent years they are becoming relev
    + 3.- Characterize divergent genomic regions subject to selection and adaptive evolution.
 
 
-### Workflow
+### Workflow: first objective
 
 To comply with point 1 (de novo assembly) I will use the population that has a larger genome size, to be used as a reference and because I already have nanopore sequences and illumina sequences for the entire genome of this population ("El Carmen" ), therefore, we decided to follow the workflow proposed by [Shin *et al.,* (2019)](https://www.nature.com/articles/s41598-019-41549-8) for de novo assemblies using long sequences (MinION) and short sequences (illumina).
 
@@ -71,6 +71,11 @@ Then the assembly was done using the corrected canu reads and with the help of t
 Finally, the draft genome assembly obtained with smartdenovo was polished with the illumina trimmed sequences. For polishing, the Pilon software was used, but to be able to run pilon, the illumina sequences were first aligned on the draft of the genome with the help of the [BWA](bin/bwa.sh) aligner and the data was ordered with [samtools.sh](bin/samtools.sh)
 
 After the alignment steps, the polishing of the de novo genome is finally carried out with the help of [pilon.sh](/bin/pilon.sh).
+
+
+### Workflow: second objective
+
+To meet the second objective, the genomes assemblies will be made based on the reference using the following script [`assembly_ref.sh`](/bin/assembly_ref.sh)
 
 
 ### *Software* versions used 
