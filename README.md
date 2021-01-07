@@ -54,7 +54,7 @@ Here is the general script that was used to make the assembly de novo [`DeNovo_a
 
 + **Data Cleaning**
 
-The quality of the illumina sequences was checked using [fastQC.sh](/ bin/fastQC.sh) and although the quality was generally good, a step was performed to trim low quality reads and to eliminate over-represented adapters with [trimmomatic.sh](/bin/trimmomatic.sh)
+The quality of the illumina sequences was checked using [fastQC.sh](/bin/fastQC.sh) and although the quality was generally good, a step was performed to trim low quality reads and to eliminate over-represented adapters with [trimmomatic.sh](/bin/trimmomatic.sh)
 
 To trim the adapters and reduce the low quality of the nanopore sequences, the software [porechop.sh](/bin/porechop.sh) was used, this is a specialized program for this type of works and reads.
 
