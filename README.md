@@ -69,8 +69,6 @@ To check the quality of the MinION sequences we used the *software* fastp in the
 ### *Software* versions used 
 [**Fastqc:v0.11.8**](https://hub.docker.com/layers/biocontainers/fastqc/v0.11.8dfsg-2-deb_cv1/images/sha256-9d41ec0bc4f413abe9e5290c91e3edfaa215fc47e8e11df18691cfa870df6d91?context=explore)
 
-[**Fastp:v0.19.5**](https://github.com/OpenGene/fastp)
-
 [**Porechop:v0.2.4**](https://github.com/rrwick/Porechop)
 
 [**Canu:v1.8**](https://hub.docker.com/r/biocontainers/canu/tags)
