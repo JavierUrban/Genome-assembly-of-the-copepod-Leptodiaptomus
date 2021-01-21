@@ -49,7 +49,7 @@ To comply with point 1 (de novo assembly) I will use the population that has a l
 Raw sequencing data and heavy results are not here, if you want to know more, you can write to the following email [javierurban07@gmail.com](javierurban07@gmail.com)
 
 <p align="center">
-  <img src="https://github.com/JavierUrban/Genome-assembly-of-the-copepod-Leptodiaptomus/blob/main/workflow.png">
+  <img src="/workflow.png">
 </p>
 
 Here is the general script that was used to make the assembly de novo [`DeNovo_assembly.sh`](/bin/DeNovo_assembly.sh). And below a small description of each step according to this workflow, and also directs to the command line that was used to run each program.
