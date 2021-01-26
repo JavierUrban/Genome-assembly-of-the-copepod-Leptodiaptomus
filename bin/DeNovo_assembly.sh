@@ -19,7 +19,7 @@ porechop -i ../data/20190402_AAlcantara.fastq -o ../results/trimm_minion.fasta -
 ###CANU###
 ##canu is used to correct the nanopore reads##
 ##The data coverage is low for the estimated genome size and was adjusted with the commands stopOnLowCoverage = 0.1 and minInputCoverage = 0.1
-mkdir ../results/CANU
+mkdir -p ../results/CANU
 canu -p minion_canu -d ../results/CANU/ stopOnLowCoverage=0.1  minInputCoverage=0.1 genomeSize=400m -corrected -nanopore ../results/trimm_minion.fasta
 
 ###SMARTdenovo###
@@ -40,7 +40,7 @@ samtools sort ../results/aln_genoma_illu.bam ../results/aln_genoma_illu.sorted.b
 samtools index ../results/aln_genoma_illu.sorted.bam
 
 ##now you can run PILON
-mkadir ../results/genome_pulido
+mkdir -p ../results/genome_pulido
 pilon --genome ../results/assembly_genome_lepto.fa.gz --frags ../results/aln_genoma_illu.sorted.bam --output ../results/genome_pulido/ --threads 10 --mingap 8 -Xmx32G 
 
 ###RepearMasker###
