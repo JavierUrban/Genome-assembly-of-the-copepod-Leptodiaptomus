@@ -71,7 +71,7 @@ The repository is organized into five folders for better monitoring and visualiz
 ### <p align="center">Workflow to de *Novo* assembly of the "El Carmen" </p>
 
 <p align="center">
-  <img src="/workflow.png">
+  <img src="/images/workflow.png">
 </p>
 
 The first de novo assembly is carried out with the population of El Carmen and the protocol suggested by [Shin *et al.,* (2019)](https://www.nature.com/articles/s41598-019-41549-8) was followed. Since it is designed and tested as a good workflow to improve the integrity of hybrid genomes with MinION and Illumina sequences.
