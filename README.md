@@ -68,7 +68,7 @@ The repository is organized into five folders for better monitoring and visualiz
 
 ## Workflows structure
 
-###<p align="center">Workflow to de *Novo* assembly of the "El Carmen" </p>
+### <p align="center">Workflow to de *Novo* assembly of the "El Carmen" </p>
 
 <p align="center">
   <img src="/workflow.png">
