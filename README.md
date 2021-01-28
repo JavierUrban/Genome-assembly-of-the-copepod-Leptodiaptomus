@@ -41,7 +41,7 @@ The workflow is structured in four parts, following different bioinformatic stra
 
 [**Canu:v2.0**](https://github.com/marbl/canu/releases/tag/v2.0)
 
-[**SMARTdenovo**](https://github.com/ruanjue/smartdenovo)
+[**SMARTdenovo:v2.12**](https://github.com/ruanjue/smartdenovo)
 
 [**bwa:v0.7.17**](https://github.com/lh3/bwa)
 
@@ -49,6 +49,9 @@ The workflow is structured in four parts, following different bioinformatic stra
 
 [**Pilon:1.23**](https://github.com/broadinstitute/pilon/releases/)
 
+[**BUSCO:v5.0.0](https://busco.ezlab.org/busco_userguide.html)
+
+[**QUAST:v5.0.2](https://github.com/ablab/quast)
 
 ## Repository structure
 
