@@ -49,9 +49,9 @@ The workflow is structured in four parts, following different bioinformatic stra
 
 [**Pilon:1.23**](https://github.com/broadinstitute/pilon/releases/)
 
-[**BUSCO:v5.0.0](https://busco.ezlab.org/busco_userguide.html)
+[**BUSCO:v5.0.0**](https://busco.ezlab.org/busco_userguide.html)
 
-[**QUAST:v5.0.2](https://github.com/ablab/quast)
+[**QUAST:v5.0.2**](https://github.com/ablab/quast)
 
 ## Repository structure
 
