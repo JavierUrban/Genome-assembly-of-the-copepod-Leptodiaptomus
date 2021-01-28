@@ -65,7 +65,7 @@ The repository is organized into five folders for better monitoring and visualiz
 
 + **[`/results/`](/results)** In this folder are the results obtained, mainly graphs or tables obtained during the assembly process. Here is a [readme](/results/README.md) with a short summary of the general results because you can not put all the results obtained, by size or because they are not published.
 
-+ **[`/meta-data/`](/meta-data)** Here are some tables or data of general information of the five study populations and that can be used for future analysis, for example: the [general_data.txt](/meta-dta/general_data.txt) has general ecological data such as the precense of predators, degrees of salinity and permanence of the habitat, and added the differential size of the genomes of each population. 
++ **[`/meta-data/`](/meta-data)** Here are some tables or data of general information of the five study populations and that can be used for future analysis, for example: the [general_data.txt](/meta-data/general_data.txt) has general ecological data such as the precense of predators, degrees of salinity and permanence of the habitat, and added the differential size of the genomes of each population. 
 
 **Nota:** Because the work is not yet published and the weight of most of the data and results is large, they are not here, but if there is any doubt or question, you can write an issue here or send an email to [javierurban07@gmail.com](javierurban07@gmail.com)
 
