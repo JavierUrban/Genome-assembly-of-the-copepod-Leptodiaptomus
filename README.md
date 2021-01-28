@@ -29,7 +29,7 @@ This repository is a report and a guide to the bioinformatics methodology used t
 
 The size of the genome has been estimated by flow cytometry and the conversion to Mpb was carried out with a function in R: [`picograms_to_Mpb(n)`](/bin/picograms_to_Mpb.R) and you can see in [plot_genome_size](/meta-data/plot_genome_size.pdf)
 
-The workflow is structured in four parts, following different bioinformatic strategies that depend on the data type. 1)De novo assembly and annotation of the El carmen genome (MinIon + illumina). 2)De novo assembly and annotation of the Atexcac genome (PacBio + illumina). 3)Assembly with reference for the rest of the populations (illumina) 4). Comparison of the 5 genomes and identification of variants. At the moment only the strategies of step 1 and 2 are presented and as progress is made the repository will be updated.
+The workflow is structured in four parts, following different bioinformatic strategies that depend on the data type. 1)De novo assembly and annotation of the El carmen genome (MinIon + illumina). 2)De novo assembly and annotation of the Atexcac genome (PacBio + illumina). 3)Assembly with reference for the rest of the populations (illumina) 4). Comparison of the 5 genomes and identification of variants. At the moment only the strategy of the first step presented and as progress is made the repository do will be updated.
 
 ## Pre-requirements (*Software* versions) 
 
