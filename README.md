@@ -63,7 +63,7 @@ The repository is organized into five folders for better monitoring and visualiz
 
 + **[`/images/`](/images)** Here they are deposited all images that have been used to illustrate this repository
 
-+ **[`/results/`](/results)** In this folder are the results obtained, mainly graphs or tables obtained during the assembly process.
++ **[`/results/`](/results)** In this folder are the results obtained, mainly graphs or tables obtained during the assembly process. Here is a [readme](/results/README.md) with a short summary of the general results because you can not put all the results obtained, by size or because they are not published.
 
 + **[`/meta-data/`](/meta-data)** Here are some tables or data of general information of the five study populations and that can be used for future analysis. 
 
