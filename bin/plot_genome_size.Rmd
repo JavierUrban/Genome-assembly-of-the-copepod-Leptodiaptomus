@@ -1,0 +1,43 @@
+---
+title: "plot_genome_size"
+author: "Javier Urbán"
+date: "1/28/2021"
+output: pdf_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+##Barplot of the size of the genomes in Mpb that was converted from the estimation with flow cytometry##
+##Load libraries
+library(ggplot2)
+library(RColorBrewer)
+##Convert of Picograms to Mpb##
+picograms <- c("Atexcac"=0.37, "Carmen"=0.41, "Preciosa"=0.25, "Quechulac"=0.33, "Alchichica"=0.4)
+
+picograms_to_Mpb <- function(picograms) {
+  ## converts picograms value to Mpb (million base pairs)
+  ## Arguments:
+  # Mpb: value of Mpb converted to be pg
+  Mpb <- ((picograms*978)) ## 1pg = 978 Mpb
+  return(Mpb)
+}
+
+picograms_to_Mpb(picograms)
+
+##create dataframe with the genome size by populations##
+genome_size <- data.frame(Population= c("Atx ", "Car", "Pre", "Que", "Alch"),
+                          Mpb= c(361.86, 400.98, 244.50, 322.74, 391.20))
+
+##Generate plot
+graph_size <- ggplot(data = genome_size, aes(x=Population, y=Mpb, fill=Population)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values=c("orange", "blue", "red", "green", "purple"))+ 
+  geom_text(aes(label=Mpb), vjust=4, color="black", size=3)+
+  labs(title="Genome sizes")+
+  theme_minimal()
+
+graph_size
+
+
+```
